@@ -1,0 +1,73 @@
+.container-fluid{
+    display: flex;
+    width:90%;
+    justify-content: space-between;
+    padding:1rem;
+}
+#iImportant{
+    font-size: 30px;
+    color:rgb(224, 248, 10);
+    cursor: pointer;
+}
+#iImportant:hover{
+    color: rgb(240, 216, 4);
+}
+form{
+    background-color: rgb(200, 200, 200,.5);
+    border-radius: 10px;
+    width:35vh;
+}
+.form div{
+    padding: 1rem;
+}
+/*main*/
+body{
+    height: 100vh;
+    background-image:url('/img/12261194.jpg');
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-size: cover;
+}
+/*header*/
+header{
+    background-color: #413896;
+    color: white;
+}
+.container-fluid header{
+    display: flex;
+    width:90%;
+    justify-content: space-between;
+    padding:1rem;
+}
+#btnAdd{
+    background-color: rgb(71, 1, 73);
+    border: none;
+}
+/*task*/
+.task{
+    border:2px solid black;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+
+}
+.taskInfo{
+    text-align: left;
+}
+.task label{
+    display: block;
+    padding: 5px;
+}
+.task label i{
+    margin-right: 1rem;
+    padding:0;
+    width: 2rem;
+    text-align: right;
+}
+.task .title{
+    display:flex;
+    justify-content: space-between;
+}
+.important{
+    background-color: yellow !important;
+}
